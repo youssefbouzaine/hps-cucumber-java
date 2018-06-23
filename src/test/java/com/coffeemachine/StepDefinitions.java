@@ -53,7 +53,7 @@ public class StepDefinitions {
 
     @When("^I take \"(.*)\" coffees$")
     public void iTakeCoffeeNumberCoffees(String coffeeNumber) {
-        actionwords.iTakeCoffeeNumberCoffees(coffeeNumber);
+        actionwords.iTakeCoffeeNumberCoffees(Integer.valueOf(coffeeNumber));
     }
 
     @Given("^the coffee machine is started$")
