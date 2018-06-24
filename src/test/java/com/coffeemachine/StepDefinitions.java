@@ -111,4 +111,10 @@ public class StepDefinitions {
     public void notificationAboutDescalingIsDisplayed() {
         actionwords.notificationAboutDescalingIsDisplayed();
     }
+
+    @Then("^notification about descaling is displayed$")
+	public void notification_about_descaling_is_displayed() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+	}
 }
