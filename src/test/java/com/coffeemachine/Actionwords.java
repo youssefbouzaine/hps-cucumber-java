@@ -142,7 +142,7 @@ public class Actionwords {
         assertEquals(settings, sut.getSettings());
     }
 
-    public void aNotificationAboutDescalingIsDisplayed() {
+    public void notificationAboutDescalingIsDisplayed() {
 
     }
 }
