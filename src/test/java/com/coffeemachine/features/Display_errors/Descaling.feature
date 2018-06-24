@@ -2,7 +2,7 @@ Feature: Descaling
 
 
   Background:
-    Given I handle coffee grounds
+    Given I handle coffee groundsString
     And I handle water tank
     And I handle beans
 
@@ -10,4 +10,4 @@ Feature: Descaling
     # Deascaling is recorded after 500 coffee
     When I take "500" coffees
     Given the coffee machine is started
-    Then notification about descaling is displayed
+    Then notification descaling is displayed
