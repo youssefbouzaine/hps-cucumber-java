@@ -84,3 +84,12 @@
   parameters:
   - name: __datatable
   body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: then
+  uid: 5c4b1214-40be-443b-8978-abc0fa4c22df
+  parameters:
+  - name: __free_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: notification about descaling is displayed
+  uid: 0cade5df-29aa-4133-8fc9-e335af1db48e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e

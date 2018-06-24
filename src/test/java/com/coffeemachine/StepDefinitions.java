@@ -52,7 +52,7 @@ public class StepDefinitions {
     }
 
     @When("^I take \"(.*)\" coffees$")
-    public void iTakeCoffeeNumberCoffees(int coffeeNumber) {
+    public void iTakeCoffeeNumberCoffees(String coffeeNumber) {
         actionwords.iTakeCoffeeNumberCoffees(coffeeNumber);
     }
 
@@ -68,7 +68,7 @@ public class StepDefinitions {
 
     @Given("^I handle water tank$")
     public void iHandleWaterTank() {
-    actionwords.iHandleWaterTank();
+        actionwords.iHandleWaterTank();
     }
 
     @Given("^I handle beans$")
@@ -104,5 +104,11 @@ public class StepDefinitions {
     @Then("^settings should be:$")
     public void settingsShouldBe(DataTable datatable) {
         actionwords.settingsShouldBe(datatable);
+    }
+
+
+    @Then("^notification about descaling is displayed$")
+    public void notificationAboutDescalingIsDisplayed() {
+        actionwords.notificationAboutDescalingIsDisplayed();
     }
 }

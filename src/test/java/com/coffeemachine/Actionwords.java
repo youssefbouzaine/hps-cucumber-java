@@ -134,7 +134,7 @@ public class Actionwords {
     public void settingsShouldBe(DataTable datatable) {
         List<List<String>> rawTable = datatable.raw();
         Map<String,String> settings = new HashMap<String, String>();
-
+hiptest-publisher -c <path to your config file> --show-actionwords-diff
         settings.put(rawTable.get(0).get(0), rawTable.get(0).get(1));
         settings.put(rawTable.get(1).get(0), rawTable.get(1).get(1));
 
