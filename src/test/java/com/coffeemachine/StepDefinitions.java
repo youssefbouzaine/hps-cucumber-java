@@ -52,7 +52,7 @@ public class StepDefinitions {
     }
 
     @When("^I take \"(.*)\" coffees$")
-    public void iTakeCoffeeNumberCoffees(String coffeeNumber) {
+    public void iTakeCoffeeNumberCoffees(int coffeeNumber) {
         actionwords.iTakeCoffeeNumberCoffees(coffeeNumber);
     }
 
