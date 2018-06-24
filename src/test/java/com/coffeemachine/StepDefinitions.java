@@ -52,9 +52,7 @@ public class StepDefinitions {
     }
 
     @When("^I take \"(.*)\" coffees$")
-
     public void iTakeCoffeeNumberCoffees(int coffeeNumber) {
-
         actionwords.iTakeCoffeeNumberCoffees(coffeeNumber);
     }
 
@@ -70,8 +68,6 @@ public class StepDefinitions {
 
     @Given("^I handle water tank$")
     public void iHandleWaterTank() {
-        <<<<<<< HEAD
-    public void iTakeCoffeeNumberCoffees(Integer coffeeNumber) {
     actionwords.iHandleWaterTank();
     }
 
