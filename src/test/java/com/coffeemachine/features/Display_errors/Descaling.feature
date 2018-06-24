@@ -10,4 +10,4 @@ Feature: Descaling
     # Deascaling is recorded after 500 coffee
     When I take "500" coffees
     Given the coffee machine is started
-    Then notification about descaling is displayed
+    Then coffee should be served

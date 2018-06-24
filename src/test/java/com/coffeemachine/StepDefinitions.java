@@ -31,6 +31,11 @@ public class StepDefinitions {
         actionwords.coffeeShouldNotBeServed();
     }
 
+    @Then("^notification about descaling is displayed$")
+    public void notificationAboutDescalingIsDisplayed() {
+        actionwords.notificationAboutDescalingIsDisplayed();
+    }
+
     @When("^I take a coffee$")
     public void iTakeACoffee() {
         actionwords.iTakeACoffee();
@@ -104,11 +109,5 @@ public class StepDefinitions {
     @Then("^settings should be:$")
     public void settingsShouldBe(DataTable datatable) {
         actionwords.settingsShouldBe(datatable);
-    }
-
-
-    @Then("^notification about descaling is displayed$")
-    public void notificationAboutDescalingIsDisplayed() {
-        actionwords.notificationAboutDescalingIsDisplayed();
     }
 }
