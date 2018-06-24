@@ -53,7 +53,7 @@ public class StepDefinitions {
 
     @When("^I take \"(.*)\" coffees$")
     public void iTakeCoffeeNumberCoffees(String coffeeNumber) {
-        actionwords.iTakeCoffeeNumberCoffees(Integer.valueOf(coffeeNumber));
+        actionwords.iTakeCoffeeNumberCoffees(coffeeNumber);
     }
 
     @Given("^the coffee machine is started$")
@@ -107,9 +107,8 @@ public class StepDefinitions {
     }
 
 
-    @Then("^a notification about descaling is displayed$")
-    public void aNotificationAboutDescalingIsDisplayed() {
-        actionwords.aNotificationAboutDescalingIsDisplayed();
+    @Then("^notification about descaling is displayed$")
+    public void notificationAboutDescalingIsDisplayed() {
+        actionwords.notificationAboutDescalingIsDisplayed();
     }
-
 }
