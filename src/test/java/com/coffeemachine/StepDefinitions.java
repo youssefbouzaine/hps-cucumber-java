@@ -107,7 +107,7 @@ public class StepDefinitions {
     }
 
 
-    @Then("^notification about descaling is displayed$")
+    @Then("^notification descaling is displayed$")
     public void notificationAboutDescalingIsDisplayed() {
         actionwords.notificationAboutDescalingIsDisplayed();
     }

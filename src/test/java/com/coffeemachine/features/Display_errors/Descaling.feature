@@ -2,7 +2,7 @@ Feature: Descaling
 
 
   Background:
-    Given I handle coffee groundsString
+    Given I handle coffee grounds
     And I handle water tank
     And I handle beans
 
