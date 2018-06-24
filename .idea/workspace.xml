@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="241dd371-e284-49ee-bee2-747edb009f76" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/coffeemachine/Actionwords.java" afterPath="$PROJECT_DIR$/src/test/java/com/coffeemachine/Actionwords.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/coffeemachine/StepDefinitions.java" afterPath="$PROJECT_DIR$/src/test/java/com/coffeemachine/StepDefinitions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/coffeemachine/features/Display_errors/Descaling.feature" afterPath="$PROJECT_DIR$/src/test/java/com/coffeemachine/features/Display_errors/Descaling.feature" />
     </list>
@@ -25,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Actionwords.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Actionwords.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/coffeemachine/Actionwords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="135" column="23" lean-forward="false" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+            <state relative-caret-position="124">
+              <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/coffeemachine/features/Display_errors/Descaling.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="61">
-              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -65,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StepDefinitions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StepDefinitions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/coffeemachine/StepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="109" column="24" lean-forward="false" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+            <state relative-caret-position="16">
+              <caret line="111" column="57" lean-forward="false" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="57" />
               <folding>
                 <element signature="e#1585#1586#0" expanded="true" />
                 <element signature="e#1651#1652#0" expanded="true" />
@@ -93,8 +94,8 @@
                 <element signature="e#2961#2962#0" expanded="true" />
                 <element signature="e#3053#3054#0" expanded="true" />
                 <element signature="e#3108#3109#0" expanded="true" />
-                <element signature="e#3219#3220#0" expanded="true" />
-                <element signature="e#3286#3287#0" expanded="true" />
+                <element signature="e#3225#3226#0" expanded="true" />
+                <element signature="e#3292#3293#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,6 +107,7 @@
     <findStrings>
       <find>then</find>
       <find>notification about descaling is displayed</find>
+      <find>actionwords</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,10 +122,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/coffeemachine/actionwords_signature.yaml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/coffeemachine/Actionwords.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/coffeemachine/features/Serve_coffee.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/coffeemachine/features/Display_errors/Descaling.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/coffeemachine/StepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/coffeemachine/features/Display_errors/Descaling.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/coffeemachine/Actionwords.java" />
       </list>
     </option>
   </component>
@@ -379,14 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/coffeemachine/Actionwords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="135" column="23" lean-forward="false" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/coffeemachine/features/Serve_coffee.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-108">
@@ -398,15 +392,15 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/coffeemachine/features/Display_errors/Descaling.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/coffeemachine/StepDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="109" column="24" lean-forward="false" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+        <state relative-caret-position="16">
+          <caret line="111" column="57" lean-forward="false" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="57" />
           <folding>
             <element signature="e#1585#1586#0" expanded="true" />
             <element signature="e#1651#1652#0" expanded="true" />
@@ -430,9 +424,17 @@
             <element signature="e#2961#2962#0" expanded="true" />
             <element signature="e#3053#3054#0" expanded="true" />
             <element signature="e#3108#3109#0" expanded="true" />
-            <element signature="e#3219#3220#0" expanded="true" />
-            <element signature="e#3286#3287#0" expanded="true" />
+            <element signature="e#3225#3226#0" expanded="true" />
+            <element signature="e#3292#3293#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/coffeemachine/Actionwords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

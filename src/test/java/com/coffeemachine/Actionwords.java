@@ -142,6 +142,7 @@ public class Actionwords {
     }
 
     public void notificationAboutDescalingIsDisplayed() {
+        iHandleBeans();
 
     }
 }
